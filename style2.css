@@ -54,7 +54,6 @@ header li a {
     border: 2px solid black;
     border-radius: 5px;
     height: 100px;
-    line-height: flex;
     width: 100px;
     text-align: center;
     font-weight: 900;
@@ -68,7 +67,6 @@ header li a {
     border: 2px solid black;
     border-radius: 5px;
     height: 100px;
-    line-height: flex;
     width: flex;
     text-align: center;
     display: inline-flexbox;
