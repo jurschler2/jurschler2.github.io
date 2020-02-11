@@ -59,7 +59,9 @@ header li a {
     font-weight: 900;
     display: inline-flexbox;
     overflow-wrap: break-word;
-    line-height:100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 #PageContents div2 {
     background-color: white;
@@ -69,8 +71,10 @@ header li a {
     border-radius: 5px;
     height: 100px;
     width: flex;
-    text-align: justify;
+    text-align: center;
     display: inline-flexbox;
     overflow-wrap: break-word;
-    line-height:100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
