@@ -44,7 +44,7 @@ header li a {
     display: flex;
     justify-content: flex-start;
     position: fixed;
-    min-width: 300px;
+    min-width: 0;
     
     }
 
