@@ -71,6 +71,7 @@ header li a {
     border-radius: 5px;
     height: 100px;
     width: flex;
+    max-width: 1000px;
     text-align: center;
     display: inline-flexbox;
     overflow-wrap: break-word;
