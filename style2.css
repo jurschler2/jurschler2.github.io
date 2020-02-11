@@ -69,7 +69,7 @@ header li a {
     border-radius: 5px;
     height: 100px;
     width: flex;
-    text-align: center;
+    text-align: justify;
     display: inline-flexbox;
     overflow-wrap: break-word;
     line-height:100px;
