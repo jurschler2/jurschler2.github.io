@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Meme Generator</title>
-  <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="Meme Generator.css">
 </head>
-<body>
-  <header>
+<header>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="About Page.html"> About</a></li>
-        <li><a href="Contact Page.html"> Contact</a></li>
-        <li><a href="Meme Generator.html"> Meme Generator</a></li>
-        <li><a href="Memory Game.html"> Memory Game</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section>
-    <div id="PageContents">
-      <div1>Contact Info</div1>
-      <div2>You can get in touch by sending me a message on <a href="https://www.linkedin.com/in/jurschler/" target="_blank">LinkedIn</a>.</div2>
-    </div>
-</section>
-</section>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About Page.html"> About</a></li>
+          <li><a href="Contact Page.html"> Contact</a></li>
+          <li><a href="Meme Generator.html"> Meme Generator</a></li>
+          <li><a href="Memory Game.html"> Memory Game</a></li>
+        </ul>
+      </nav>
+</header>
+<body>
+        
+        <form action="#">
+            <div>
+                <p>
+                <label for="meme-url">Image URL:</label>
+                <input type="text" id="meme-url" name="meme-image" placeholder="URL goes here." required>
+            </p>
+            <p>
+                <label for="top-text">Top Text:</label>
+                <input type="text" id="top-text" name='top-text' placeholder="Text goes here." required>
+            </p>
+            <p>
+                <label for="bottom-text">Bottom Text:</label>
+                <input type="text" id="bottom-text" name='bottom-text' placeholder="Text goes here." required>
+            <p>
+            <div class="button">
+                <button type="button" id="generate-button">Generate Meme</button>
+            </div>
+            </p>
+        </form>
+    <section id="meme-area">
+    </section>
+    <script src="Meme Generator.js"></script>
 </body>
 </html>
