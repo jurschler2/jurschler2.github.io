@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FCF4E6;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;;
+    text-decoration: none;
+}
+h1{
+    color: black;
+    font-size: 3em;
+    margin-top: 100px;
+    text-align: center;
+}
+
+h3, p, span {
+    color: black;
+    display: inline
+}
+
+button {
+    font-size: 1em;
+    background-color: #DDCAA1;
+    color:#364156;
+    border: 3px solid #DDCAA1;
+    border-radius: 4px;
+
+}
+
+button:hover {
+    background-color: #364156;
+    border: 3px solid #364156;
+    color: #DDCAA1;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button#start-game-win {
+    font-size: 1em;
+    position:relative;
+    background-color: #364156;
+    color: #DDCAA1;
+    border: 6px solid #364156;
+}
+
+button#start-game-win:hover {
+    background-color: #B24742;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 6px solid #B24742;
+
+}
+
+section.game-area {
+    display: block;
+    margin: 45px;
+    text-align: center;
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+section.game-info {
+    display: block;
+    position: relative;
+    padding: 15px;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+.scoreboard {
+    display:flex;
+    width: 100%;
+    justify-content: space-around;    
+}
+
+.scores div {
+    display: inline-block;
+    text-align: center;
+}
+
+
+img {
+    width: 148px;
+    height: 100px;
+    object-fit: contain;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.gamePiece {
+   width: 148px;
+   height: 100px;
+   position: relative;
+   margin: 3px;
+   display: inline-block;
+}
+.gamePiece .card.flipped {
+  transform:rotatey(-180deg);
+}
+.gamePiece .card {
+  transform-style: preserve-3d;
+  transition: .5s;
+}
+.gamePiece .card .side {
+  cursor: pointer;
+  position: absolute;
+  box-sizing: border-box;
+  backface-visibility: hidden; 
+}
+
+.gamePiece .card .back {
+  transform:rotatey(-180deg);
+  z-index: 2;
+}
+
+.win h3 {
+    color: black;
+    font-size: 45px;
+}
+.win p {
+    color: black;
+    font-size: 45px;
+}
+
+.win div {
+    margin: 40px;
+}
+
+.win-notice {
+    display:none;
+    position: fixed;
+    z-index: 1;
+    width: 400px;
+    height: 300px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #FFEAC6;
+    border: 5px solid black;
+    border-radius: 2px;
+    text-align: center;
+    top:200px;
+}
+
+.close-win-notice {
+    float:right;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.close-win-notice:hover {
+    cursor: pointer;
+}
+
+.win-message {
+    display: block;
+    position:relative;
+}

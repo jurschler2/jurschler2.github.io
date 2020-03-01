@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Memory Game</title>
-  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="Memory Game.css">
 </head>
 <body>
   <header>
@@ -17,12 +18,22 @@
       </ul>
     </nav>
   </header>
-  <section>
-    <div id="PageContents">
-      <div1>Contact Info</div1>
-      <div2>You can get in touch by sending me a message on <a href="https://www.linkedin.com/in/jurschler/" target="_blank">LinkedIn</a>.</div2>
+  <div class="game-title"><h1>Healthy Choices</h1></div>
+  <div class="game-tagline"><h2>Can you match these healthy choices together?</h2></div>
+  <section class="win-popup">
+    <span class="close-popup">X</span>
+    <div><h2>Congrats! You just finished the game in this many moves: <p class="cards-overturned2"></p></h2></div>
+    <div><button type="button" id="win-start-game">Start Game</button></div>
+  </section>
+  <section class="scoreboard-holder">
+    <div class="scoreboard">
+      <div><button type="button" id="start-game">Start Game</div>
+      <div><h3>Cards Overturned:<p class="cards-overturned"></p></h3></div>
+      <div><h3>Fastest Game:</h3><p class="fastest-game"></p></div>
     </div>
-</section>
-</section>
+  </section>
+  <section class="game-area">
+  </section>
+  <script src="Memory Game.js"></script>
 </body>
 </html>
