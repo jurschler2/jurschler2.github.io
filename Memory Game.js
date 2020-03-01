@@ -1,24 +1,24 @@
 const matchImages = [
-    {image: "images/Pic 1.jpg", card: "McDonalds"},
-    {image: "images/Pic 1.jpg", card: "McDonalds"},
-    {image: "images/Pic 2.jpg", card: "BurgerKing"},
-    {image: "images/Pic 2.jpg", card: "BurgerKing"},
-    {image: "images/Pic 3.jpg", card: "SteakNShake"},
-    {image: "images/Pic 3.jpg", card: "SteakNShake"},
-    {image: "images/Pic 4.jpg", card: "TacoBell"},
-    {image: "images/Pic 4.jpg", card: "TacoBell"},
-    {image: "images/Pic 5.jpg", card: "InNOut"},
-    {image: "images/Pic 5.jpg", card: "InNOut"},
-    {image: "images/Pic 6.jpg", card: "Sonic"},
-    {image: "images/Pic 6.jpg", card: "Sonic"},
-    {image: "images/Pic 7.jpg", card: "Popeyes"},
-    {image: "images/Pic 7.jpg", card: "Popeyes"},
-    {image: "images/Pic 8.jpg", card: "ChickFilA"},
-    {image: "images/Pic 8.jpg", card: "ChickFilA"},
-    {image: "images/Pic 9.jpg", card: "JackInTheBox"},
-    {image: "images/Pic 9.jpg", card: "JackInTheBox"},
-    {image: "images/Pic 10.jpg", card: "CarlsJr"},
-    {image: "images/Pic 10.jpg", card: "CarlsJr"}
+    {image: "Images/Pic 1.jpg", card: "McDonalds"},
+    {image: "Images/Pic 1.jpg", card: "McDonalds"},
+    {image: "Images/Pic 2.jpg", card: "BurgerKing"},
+    {image: "Images/Pic 2.jpg", card: "BurgerKing"},
+    {image: "Images/Pic 3.jpg", card: "SteakNShake"},
+    {image: "Images/Pic 3.jpg", card: "SteakNShake"},
+    {image: "Images/Pic 4.jpg", card: "TacoBell"},
+    {image: "Images/Pic 4.jpg", card: "TacoBell"},
+    {image: "Images/Pic 5.jpg", card: "InNOut"},
+    {image: "Images/Pic 5.jpg", card: "InNOut"},
+    {image: "Images/Pic 6.jpg", card: "Sonic"},
+    {image: "Images/Pic 6.jpg", card: "Sonic"},
+    {image: "Images/Pic 7.jpg", card: "Popeyes"},
+    {image: "Images/Pic 7.jpg", card: "Popeyes"},
+    {image: "Images/Pic 8.jpg", card: "ChickFilA"},
+    {image: "Images/Pic 8.jpg", card: "ChickFilA"},
+    {image: "Images/Pic 9.jpg", card: "JackInTheBox"},
+    {image: "Images/Pic 9.jpg", card: "JackInTheBox"},
+    {image: "Images/Pic 10.jpg", card: "CarlsJr"},
+    {image: "Images/Pic 10.jpg", card: "CarlsJr"}
 ]
 
 let currentScore = 0;
@@ -61,7 +61,7 @@ function setUpGame(array) {
         cardFront = document.createElement("div");
         cardFront.className = "side back";
         cardBackInput = document.createElement("img");
-        cardBackInput.src = "images/card-back.jpg"; 
+        cardBackInput.src = "Images/card-back.jpg"; 
         cardBack = document.createElement("div");
         cardBack.className = "side";
         cardBack.appendChild(cardBackInput);
